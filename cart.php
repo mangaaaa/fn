@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 	 <div class="login">
 	 <div class="wrap">
 		 <h4 class="title">Shopping cart is empty</h4>
-		 <p class="cart">You have no items in your shopping cart.<br>Click<a href="index.html"> here</a> to continue shopping</p>
+		 <p class="cart">You have no items in your shopping cart.<br>Click<a href="index.php"> here</a> to continue shopping</p>
 	   </div>
 	</div>
  		<?php
