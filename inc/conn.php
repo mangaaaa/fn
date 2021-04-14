@@ -1,12 +1,12 @@
 <?php
-$host = "ec2-54-161-239-198.compute-1.amazonaws.com";
-$port = "5432";
-$dbname = "d85gnlj8j0mcj0";
-$user = "dfvybslkroicec";
-$password = "5fbc0949cb42473725fecfacf19b0e03e91b0bbda4160be46e1acab02a7f4e93"; 
-$connection_string = "host={$host} port={$port} dbname={$dbname} user={$user} password={$password} ";
-$dbconn = pg_connect($connection_string);
-if(!$dbconn){
+$host = "ec2-52-21-153-207.compute-1.amazonaws.com";
+$port="5432";
+$dbname="da9hdrc59ohrr7";
+$us="vxjxguhqyfsiqn";
+$ps="e088a9a86be067fc05ddd327c96ddb861b566f6c8810c1930269fac782399b61";
+$conn = "host={$host},port = {$port},dbname={$dbname},username={$us},password={$ps}";
+$dbconn = pg_connect($conn);
+if (!$dbconn){
     echo "loi";
 }
 ?>
